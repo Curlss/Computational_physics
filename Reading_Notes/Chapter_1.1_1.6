@@ -1,0 +1,54 @@
+1. Numerical Accuracy and Step Size Selection
+
+1.1 Understanding Errors and Accuracy
+
+-Numerical calculations should be tested with different step sizes to check accuracy.
+
+-Compare numerical results with exact solutions when possible.
+
+-Smaller step sizes improve accuracy, as seen in the radioactive decay problem.
+
+-The total error depends on the number of steps and the error per step, making it proportional to the step size (Δt).
+
+-Halving Δt reduces the error by about half, improving precision.
+
+1.2 Choosing the Right Step Size
+
+-Ensure numerical results stay consistent as Δt gets smaller.
+
+-Pick a step size much smaller than the problem's characteristic time scale.
+
+-Some methods, like Euler’s, may be unstable for certain problems (e.g., oscillations), requiring different approaches.
+
+2. Programming Guidelines and Best Practices
+
+2.1 Structuring Code
+
+-Use subroutines and functions to keep code organized and readable.
+
+-Modular programming helps with debugging and future modifications.
+
+2.2 Writing Clear Code
+
+-Use meaningful variable names related to the problem.
+
+-Add comments to explain important logic without excessive redundancy.
+
+-Prioritize clarity over compact, hard-to-read code.
+
+2.3 Efficiency Considerations
+
+-Focus on correctness before optimizing for speed.
+
+-Major performance improvements come from better algorithms, not small code tweaks.
+
+-Modern compilers optimize code effectively without manual adjustments.
+
+2.4 Clear Graphical Representation
+
+-Graphs should be easy to understand and interpret.
+
+Label axes with units and show parameter values clearly.
+
+Choose meaningful data for plots to enhance clarity.
+
